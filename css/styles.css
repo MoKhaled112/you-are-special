@@ -1,0 +1,56 @@
+/* ---- Base Rules ---- */
+body {
+    background-color: #121212;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+/* ---- Layout Rules ---- */
+
+.container {
+    height: 50vh;
+    background-color: #fff;
+    margin: 8rem 2rem;
+    margin-bottom: 0;
+    border-radius: 20px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#TextMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FAA0A0;
+    border-radius: 20px;
+    padding: 1rem;
+    color: black;
+    font-size: larger;
+}
+
+.afterContainer {
+    margin: 2rem;
+    color: white;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 600px){
+    .container {
+        padding: 0.5rem;
+    }
+    img {
+        width: 42px;
+        height: 42px;
+    }
+    body {
+        font-size: 1rem;
+
+    }
+}
